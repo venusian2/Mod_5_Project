@@ -16,8 +16,9 @@ The Music Industry is looking  to find top song writing talent in in the form of
 ## DataSet
 
 We gathered Data from two different sources:
-  * Spotify API
-  * WebScraping LyricWiki website
+ * Spotify API
+ * WebScraping LyricWiki website
+
 First we used the Spotify Api to collect a list of Artists as well as their Genre Classifications. We then used the LyricWiki Website to loop through the list of Artists and Scrape all of the links to their songs found on the site. Once again we looped through each link and scraped that page for the lyrics of the song. We also collected genre classifications for each Artist to fill in the missing values that we had from Spotify.
 
 
