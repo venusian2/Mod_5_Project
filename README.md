@@ -26,9 +26,9 @@ First we used the Spotify Api to collect a list of Artists as well as their Genr
 
 When charting the top twenty most frequent uni-grams in each genre we discovered that there were many similar words being used between genres. The words were also very general and not very informative, in all of the unigrams the Hip-Hop/Rap genre was the only one to show a slight difference having a difference of two words from all other genres. 
 
-![](/Visuals/trigrams.png)
-
 We then moved on to Bigram and Trigram analysis and this is where we found that these groupings were even less informative. Songs tend to be very repetitive and that was on display for this type of analysis. The most frequent groupings of words were filled with repetitions of the same word, giving us no context as to what is being discussed in each genre. We tried to add more words to our stopwords list but we kept on getting different groupings of repetitive words. We feared that if we got rid of too many words it may have a negative impact on models performance.
+
+![](/Visuals/trigrams.png)
 
 ## Feature Engineering
 
@@ -36,9 +36,9 @@ We were able to create quite a number of features for our dataset including numb
 
 ![](/Visuals/num_lines.png)
 
-![](/Visuals/word_per_line.png)
+![](/Visuals/words_per_line.png)
 
-![](/Visuals/unique.png)
+![](/Visuals/unique_words.png)
 
 ## Classification Models
 
