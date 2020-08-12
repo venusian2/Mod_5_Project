@@ -1,4 +1,4 @@
-#Song Genre Classification Project
+## Song Genre Classification Project
 
 DSC NYC Flatiron Module 5 Project
 By: **Jason Drummond**
