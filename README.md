@@ -48,7 +48,7 @@ Our baseline model was a dummy classifier that we fit to our dataframe after we 
 
 ## Text generator
 
-Now that we have all of these lyrics we will use them to create a lyric generator based on genre. We will create a corpus of text for each genre which consists of 25,000 songs chosen at random. We will pass this corpus into an rnn utilizing LSTM .LSTM was chosen as it tends to be more accurate on larger datasets and we wanted to create more coherent lyrics. Finally we created an app to generate a song based off a given genre. At the current time you must download streamlit in order to run the generator, all files can be found in the text_gen_app folder. After you have all the files just navigate to the folder where you downloaded them and type #streamlit run cap.py into the terminal. I am working on deploying this with heroku and hopefully it should be up soon.
+Now that we have all of these lyrics we will use them to create a lyric generator based on genre. We will create a corpus of text for each genre which consists of 25,000 songs chosen at random. We will pass this corpus into an rnn utilizing LSTM .LSTM was chosen as it tends to be more accurate on larger datasets and we wanted to create more coherent lyrics. Finally we created an app to generate a song based off a given genre. At the current time you must download streamlit in order to run the generator, all files can be found in the text_gen_app folder. After you have all the files just navigate to the folder where you downloaded them and type 'streamlit run cap.py into the terminal'. I am working on deploying this with heroku and hopefully it should be up soon.
 
 
 ## Conclusion
